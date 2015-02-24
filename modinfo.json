@@ -1,0 +1,23 @@
+{
+  "author": "wondible",
+  "build": "78071",
+  "category": ["ui", "in-game"],
+  "context": "client",
+  "date": "2015/02/24",
+  "description": "Shows EPM instead of EFF in build bar hover.",
+  "display_name": "Energy Per Metal",
+  "forum": null,
+  "identifier": "com.wondible.pa.energy_per_metal",
+  "priority": 100,
+  "scenes": {
+    "live_game": [
+      "coui://ui/mods/energy_per_metal/live_game.js"
+    ],
+    "live_game_build_hover": [
+      "coui://ui/mods/energy_per_metal/live_game_build_hover.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
